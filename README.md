@@ -38,9 +38,8 @@ streamlit run app.py
 
 ```
 ├── app.py                 # Streamlit UI for the application
-├── model                  # Directory containing the trained model (.h5 file)
-│   ├── potatoes.h5        # Trained model for prediction
-├── images                 # Sample images for testing
+├── potatoes.h5        # Trained model for prediction (.h5 file)
+├── potato_train.ipynb     # Model training code
 ├── requirements.txt       # Required dependencies
 └── README.md              # Project documentation
 ```
